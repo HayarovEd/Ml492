@@ -8,4 +8,8 @@
     <string name="choose_loans">Просто выберете сумму и срок</string>
     <string name="policy">Политика конфиденциальности</string>
     <string name="confirm">ПРИНЯТЬ И ПРОДОЛЖИТЬ</string>
+    <string name="loans">Займы</string>
+    <string name="not_connect">Нет соединения!</string>
+    <string name="try_connect">Проверьте интернет-соединение\nи попробуйте еще раз</string>
+    <string name="reconnect">ПЕРЕПОДКЛЮЧИТЬСЯ</string>
 </resources>

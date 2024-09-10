@@ -20,11 +20,11 @@ fun BaseScene(
     val event = viewModel::onEvent
     when (val currentState = state.value.statusApplication) {
         is StatusApplication.Connect -> {
-            /*ConnectScreen(
+            ConnectScreen(
                 loanLazyState = loanLazyState,
                 event = event,
                 loans = state.value.dbData?.loans ?: emptyList()
-            )*/
+            )
         }
 
         /*StatusApplication.FinanceGuide -> {
@@ -74,11 +74,11 @@ fun BaseScene(
 
 
         StatusApplication.Reconnect -> {
-            /* NoInternetScreen(
+             NoInternetScreen(
                  onClick = {
                      event(MainEvent.Reconnect)
                  }
-             )*/
+             )
         }
 
         StatusApplication.Terms -> {
@@ -103,11 +103,11 @@ fun BaseScene(
         }
 
         is StatusApplication.Web -> {
-            /*WebViewScreen(
+            WebViewScreen(
                 url = currentState.url,
                 offerName = currentState.offerName,
                 onEvent = event
-            )*/
+            )
         }
 
         StatusApplication.Welcome -> {

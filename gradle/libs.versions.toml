@@ -1,13 +1,31 @@
 [versions]
 agp = "8.5.2"
-kotlin = "1.9.0"
+kotlin = "1.9.22"
 coreKtx = "1.13.1"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
 lifecycleRuntimeKtx = "2.8.5"
 activityCompose = "1.9.2"
-composeBom = "2024.04.01"
+composeBom = "2024.09.00"
+
+hiltAndroidGradlePlugin = "2.51.1"
+hiltNavigationCompose = "1.2.0"
+analytics = "6.2.1"
+mobmetricalib = "5.3.0"
+mytrackerSdk = "3.1.1"
+afAndroidSdk = "6.12.4"
+push = "6.11.0.300"
+hmscoreinstaller = "6.7.0.300"
+adsIdentifier = "3.4.62.300"
+gson = "2.11.0"
+retrofit = "2.9.0"
+converterGson = "2.9.0"
+coilCompose = "2.6.0"
+materialIconsExtended = "1.7.0"
+agcp = "1.9.1.301"
+gradle = "8.1.4"
+hwid = "5.0.1.301"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -25,7 +43,31 @@ androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-man
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroidGradlePlugin" }
+google-hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hiltAndroidGradlePlugin" }
+androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+af-android-sdk = { module = "com.appsflyer:af-android-sdk", version.ref = "afAndroidSdk" }
+
+mobmetricalib = { module = "com.yandex.android:mobmetricalib", version.ref = "mobmetricalib" }
+analytics = { module = "io.appmetrica.analytics:analytics", version.ref = "analytics" }
+mytracker-sdk = { module = "com.my.tracker:mytracker-sdk", version.ref = "mytrackerSdk" }
+push = { module = "com.huawei.hms:push", version.ref = "push" }
+hmscoreinstaller = { module = "com.huawei.hms:hmscoreinstaller", version.ref = "hmscoreinstaller" }
+ads-identifier = { module = "com.huawei.hms:ads-identifier", version.ref = "adsIdentifier" }
+ads-installreferrer = { module = "com.huawei.hms:ads-installreferrer", version.ref = "adsIdentifier" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
+androidx-material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "materialIconsExtended" }
+agconnect-core = { module = "com.huawei.agconnect:agconnect-core", version.ref = "agcp" }
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+agcp = { module = "com.huawei.agconnect:agcp", version.ref = "agcp" }
+hwid = { module = "com.huawei.hms:hwid", version.ref = "hwid" }
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version = "1.9.22-1.0.18" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hiltAndroidGradlePlugin"}
 

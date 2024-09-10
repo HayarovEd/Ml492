@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Займ PRO - Займы онлайн 0%</string>
+    <string name="name">Займ PRO</string>
+    <string name="next">ДАЛЕЕ</string>
+    <string name="welcome_you">Приветствуем!</string>
+    <string name="when_need_money">Когда деньги нужны срочно, мы рядом. Получайте займы без промедления и сложностей</string>
+    <string name="micro_loans">Мгновенные\nмикрозаймы</string>
+    <string name="choose_loans">Просто выберете сумму и срок</string>
+    <string name="policy">Политика конфиденциальности</string>
+    <string name="confirm">ПРИНЯТЬ И ПРОДОЛЖИТЬ</string>
 </resources>

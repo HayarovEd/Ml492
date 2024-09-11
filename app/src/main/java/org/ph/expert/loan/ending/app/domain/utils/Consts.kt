@@ -7,7 +7,7 @@ const val APY_KEY = "VLh+aczKHaw7DhoVhDV569wT9shZ8fGF0THYG4N/cI1zRRMyJeecrkV12Ug
 const val APPS_FLYER = "jLNYzxQAqxAFeturo6YEAD"
 const val URL_ANALYTICS = "https://analyticsharks.xyz"
 const val URL_SERVER = "https://milkshake.cyou/"
-const val APP_ID_HMS = "111966245"
+const val APP_ID_HMS = "112016893"
 
 const val SHARED_DATA = "shared_data"
 const val SHARED_FIREBASE_TOKEN = "firebase_token"
